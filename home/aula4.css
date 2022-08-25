@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Rubik+Iso&display=swap');
+    
+    color:cornflowerblue;
+}
+#texto {
+    color:darkmagenta;
+    font-family: 'Roboto Slab';
+}
+.titulo {
+    color:darkgreen;
+    font-family: Rubik Iso;
+    background-color: greenyellow;
+    width: 500px;
+    height: 50pxs;
+    border: 10px outset white;
+    border-radius: 15px;
+}
+body {
+    
+    background-image: url("/pal.png");
+    background-repeat: no-repeat;
+    
+}

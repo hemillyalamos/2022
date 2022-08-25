@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+       
+        <head>
+              <meta charset="utf-8"/>
+               
+              <title>Aula 03</title>
+        </head>
+        
+        <body>
+	<!--tag para formulário action=> para onde os dados irão method=> maneira que será enviado-->
+	<form action=""method="">
+		<!--TAG label etiqueta para o input 
+	for=>identific o input que pertence a label-->
+		<label for="Nome">Nome completo <br></label>
+
+<!-- TAG input-Entrada de dados
+type=>define o tipo de dado
+id=> identificador do input
+placeholder=> texto de indentificação do input-->
+
+		<input type="text"id="Nome"placeholder="Insira seu nome"required/><br>
+
+		<label for="datanasc">Data de nascimento</label>
+		<input id="datanasc" type="date"/><br>
+
+		<label for="indica">Voce nos indicaria?</labe>
+		<input id="indica"type="number" min="1" max="5"/><br>
+
+		<label for="email">E-mail</label>
+		<input id="email"type="email"
+placeholder="Informe seu E-mail"/> <br>
+
+		<label for="cor">Cor favorita</label>
+		<input id="cor" type="color"/><br>
+	
+		<label for="avaliacao">Em qual volume voce ouve música(0 a 100) </label>
+		<input id="volume"type="range" min"0" max"100"/><br>
+
+		<fieldset>
+<!--Tag legend título do fieldset-->
+		 <legend>Genero</legend>
+		<input type="radio"id="masc" name="genero"/>
+		<label for="masc">Masculino</label>
+		<input type="radio" id="fem" name="genero"/>
+		<label for="fem">Feminino</label>
+		<input type="radio" id="outros" name="genero"/>
+		<label for="outros">Outros</label>
+
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Monte seu lanche</legend>
+			<input type="checkbox" id="salada"/>
+			<label for="salada">Salada</label>
+			<input type="checkbox"id="hamb"/>
+			<label for="hamb">Hamburguer</label>
+			<input type="checkbox"id="bac"/>
+			<label for="bac">Bacon</label>
+			<input type="checkbox"id="mc"/>
+			<label for="mc">Maionese</label>
+			<input type="checkbox"id="pao"/>
+			<label for="pao">Pão com gergelim</label>
+		</fieldset>
+		<br>
+		
+		<label for="info">Informações Adicionais</label><br>
+		<textarea id="info"></textarea>
+		<br>
+
+		<label for="senha">Senha</label>
+		<input id="senha"type="password"/>
+		<br>
+		<select>
+			<option>Jaguariuna</option>
+			<opition>Pedreira</option>
+			<option>Amparo</option>
+			<option>Holambra</option>
+			<option>Campinas</option>
+		</select>
+		<br>
+		<input type="reset" value="Limpar Form"/>
+		<input type="submit"/>
+</form>
+
+	</body>
