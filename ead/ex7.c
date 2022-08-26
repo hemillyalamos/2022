@@ -5,29 +5,29 @@ int main()
     char resposta;
     int positivos = 0;
 
-    printf("Telefonou para a vítima? (S ou N): ");
+    printf("Telefonou para a vitima? (Sim ou Nao): ");
     scanf("%c", &resposta);
-    if (resposta == 'S' || resposta == 's')
+    if (resposta == 'Sim' || resposta == 'Sim')
         positivos++;
-    printf("Esteve no local do crime? (S ou N): ");
+    printf("Esteve no local do crime? (Sim ou Nao): ");
     getchar();
     scanf("%c", &resposta);
-    if (resposta == 'S' || resposta == 's')
+    if (resposta == 'Sim' || resposta == 'Sim')
         positivos++;
-    printf("Mora perto da vítima? (S ou N): ");
+    printf("Mora perto da vitima? (Sim ou Nao): ");
     getchar();
     scanf("%c", &resposta);
-    if (resposta == 'S' || resposta == 's')
+    if (resposta == 'Sim' || resposta == 'Sim')
         positivos++;
-    printf("Devia para a vítima? (S ou N): ");
+    printf("Devia para a vitima? (Sim ou Nao): ");
     getchar();
     scanf("%c", &resposta);
-    if (resposta == 'S' || resposta == 's')
+    if (resposta == 'Sim' || resposta == 'Sim')
         positivos++;
-    printf("Já trabalhou com a vítima? (S ou N): ");
+    printf("Ja trabalhou com a vitima? (Sim ou Nao): ");
     getchar();
     scanf("%c", &resposta);
-    if (resposta == 'S' || resposta == 's')
+    if (resposta == 'Sim' || resposta == 'Sim')
         positivos++;
 
     if (positivos < 2)
@@ -35,7 +35,7 @@ int main()
     else if (positivos == 2)
         printf("Suspeita");
     else if (positivos < 5)
-        printf("Cúmplice");
+        printf("Cumplice");
     else
         printf("Assassino");
     return 0;

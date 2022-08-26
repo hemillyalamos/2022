@@ -7,7 +7,7 @@ int main()
         diferencaEntreSalarios,
         salarioAtual;
 
-    printf("Digite seu salário atual: ");
+    printf("Digite seu salario atual: ");
     scanf("%f", &salarioAnterior);
 
     if (salarioAnterior <= 280)
@@ -20,9 +20,9 @@ int main()
         percentualDeAumento = 5;
     diferencaEntreSalarios = salarioAnterior * (percentualDeAumento / 100.0);
     salarioAtual = salarioAnterior + diferencaEntreSalarios;
-    printf("\nSeu salário antes do reajuste era de R$%.2f", salarioAnterior);
-    printf("\nSeu salário foi aumentado em %.1f%%", percentualDeAumento);
-    printf("\nSeu salário foi aumentado em R$%.2f", diferencaEntreSalarios);
-    printf("\nSeu salário atual é de R$%.2f", salarioAtual);
+    printf("\nSeu salario antes do reajuste era de R$%.2f", salarioAnterior);
+    printf("\nSeu salario foi aumentado em %.1f%%", percentualDeAumento);
+    printf("\nSeu salario foi aumentado em R$%.2f", diferencaEntreSalarios);
+    printf("\nSeu salario atual é de R$%.2f", salarioAtual);
     return 0;
 }

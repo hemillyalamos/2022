@@ -1,10 +1,10 @@
 //3 - Utilizando apenas um vetor de tamanho 6, troque os valores de maneira inversa//
 
 #include <stdio.h>
-#include <locale.h>
+
 
 int main(){
-	setlocale(LC_ALL,"");
+	
 	int vetor[6],number,cont=0,i;	
 	
 	printf("Vetor 1");

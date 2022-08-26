@@ -1,22 +1,10 @@
 body {
     background-color: aquamarine;
 }   
-    #circulos {
-        width: 150px;
-        height: 150px;
-        background-color: blueviolet;
-        border-radius: 75px;
-        position: static;
-    }
-    #segundo {
-        position: relative;
-        top: 10px;
-        left: 100px;
+    .caixa {
         
-    }
-    #terceiro {
-        position: absolute;
-        top: 0;
-        left:0;
-
+        border: 2px solid salmon;
+        /* margin: 100px 50px;
+        margin-top: 100px;
+        padding: 50px; */
     }
