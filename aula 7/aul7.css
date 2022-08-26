@@ -1,0 +1,22 @@
+body {
+    background-color: aquamarine;
+}   
+    #circulos {
+        width: 150px;
+        height: 150px;
+        background-color: blueviolet;
+        border-radius: 75px;
+        position: static;
+    }
+    #segundo {
+        position: relative;
+        top: 10px;
+        left: 100px;
+        
+    }
+    #terceiro {
+        position: absolute;
+        top: 0;
+        left:0;
+
+    }
