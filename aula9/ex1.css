@@ -1,0 +1,33 @@
+.card {
+    width:200px ;
+    height:280px;
+    border:1px solid rgb(49, 167, 65);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 55px;
+}
+
+.card > img {
+    width: 100%;  
+    border-top-left-radius: 15px;
+    border-top-left-radius: 15px; 
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+
+}
+ .card-body > button {
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+
+ }

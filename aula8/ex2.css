@@ -34,24 +34,22 @@ body {
     top: 20.5%;
 }
 #form5 {
-    width:100px ;
-    height: 100px;
+    width:150px ;
+    height: 150px;
     margin: 30px;
-    background-color:black;
+    background-color:gray;
     border: 2px;
-    color:black;
     position: absolute;
     right:35%;
     top: 40%;
     
 }
 #form6 {
-    width:100px ;
-    height: 100px;
+    width:150px ;
+    height: 150px;
     margin: 30px;
-    background-color:black;
+    background-color:gray;
     border: 2px;
-    color:black;
     position: absolute;
     right:55%;
     top: 40%;
