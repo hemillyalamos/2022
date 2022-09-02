@@ -10,9 +10,49 @@ body {
     color: palevioletred;
 }
 #form2 {
-    width: 100vw;
-    height: 20vh;
+    width: 10vw;
+    height: 70vh;
     background-color:cornflowerblue;
     border: 1px solid;
     color: cornflowerblue
+}
+#form3 {
+    width: 100vw;
+    height: 10vh;
+    background-color: orange;
+    border: 1px solid;
+    color: orange;
+}
+#form4 {
+    width:10vw;
+    height: 70.1vh;
+    background-color:cornflowerblue;
+    border: 1px solid;
+    color: cornflowerblue;
+    position: absolute;
+    right: 0;
+    top: 20.5%;
+}
+#form5 {
+    width:100px ;
+    height: 100px;
+    margin: 30px;
+    background-color:black;
+    border: 2px;
+    color:black;
+    position: absolute;
+    right:35%;
+    top: 40%;
+    
+}
+#form6 {
+    width:100px ;
+    height: 100px;
+    margin: 30px;
+    background-color:black;
+    border: 2px;
+    color:black;
+    position: absolute;
+    right:55%;
+    top: 40%;
 }
