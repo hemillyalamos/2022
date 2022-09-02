@@ -1,0 +1,18 @@
+body {
+    background-color: yellow;
+    margin: 0px;
+}
+#form1 {
+    width: 100vw;
+    height: 20vh;
+    background-color: palevioletred;
+    border: 1px solid;
+    color: palevioletred;
+}
+#form2 {
+    width: 100vw;
+    height: 20vh;
+    background-color:cornflowerblue;
+    border: 1px solid;
+    color: cornflowerblue
+}

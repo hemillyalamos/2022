@@ -1,0 +1,41 @@
+body{
+    background-color: aquamarine;
+
+}
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.bloco {
+    width: 30vw;
+    border: 1px solid red;
+    
+}
+img{
+    width: 20vw;
+    
+}
+
+.menu > li {
+    float: left;
+    margin-left: 20px;
+}
+.exemplo {
+    width: 90vw;
+    height: 40vh;
+    border: 2px solid purple;
+    margin: 30px;
+}
+.exemplo > div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid green;
+}
+.exemplo > #caixa1 {
+    background-color: black;
+}
+ #caixa2 {
+    background-color: greenyellow;
+}
