@@ -1,0 +1,98 @@
+body {
+    margin:;
+
+}
+.line1  {   
+    display: flex;
+    justify-content:space-around;
+    height: 31vh;
+}
+#bol1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:blue;
+}
+#bol2 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: blue;
+}
+#bol3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:blue;
+}
+.line2{
+    display: flex;
+    justify-content:space-between;
+    height: 27vh;  
+}
+#b1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: blue;
+}
+#b2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:blue;
+}
+#b3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:blue;
+}
+.line3{
+    display: flex;
+    justify-content:space-evenly;
+}
+#b1-1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: blue;
+}
+#b2-1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:blue;
+}
+#b3-1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:blue;
+}
+.line4{
+    display: flex;
+    justify-content:center;
+    margin: 5vw;
+}
+#bo1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: blue;
+}
+#bo2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:blue;
+}
+#bo3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:blue;
+}
+
+
+

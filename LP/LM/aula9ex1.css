@@ -1,0 +1,32 @@
+body{
+    background-color: blueviolet;
+    margin: 0;
+}
+.faixa{
+    width: 100vw;
+    height: 10vh;
+    background-color: gray;
+    display:flex;   
+}
+#fx1{
+    width: 20vw;
+    height: 5vh;
+    background-color: aqua;
+    margin:4vh   
+}
+#fx2{
+    width: 10vw ;
+    height: 5vh;
+    background-color:antiquewhite ;
+    margin:4vh ;
+}
+.tab1{
+    width: 20vw;
+    height: 100vh;
+    background-color:lightpink;
+}
+.tab2{
+    width: 10vw;
+    height: 10vh;
+    background-color:bisque ;
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@300&family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+body {
+    margin: 0;
+    background-color:white;
+}
+header{
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+}
+.log{  
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+#lo1{
+    display: flex;
+}
+#palav{
+    color: aliceblue;
+    font-family: 'Pacifico', cursive;
+    font-size:60px;
+    margin-left: 20px;
+}
+#pont{
+    color: blueviolet;
+    font-size: 60px;
+}
+#bt>button:hover {
+    background-color: gray;
+}
+.line{
+    background-color: greenyellow;
+    width: 100vw;
+    height: 20px;
+}
+.line2{
+    background-color: cornflowerblue;
+    width: 100vw;
+    height: 5px;
+}
+.cont{
+    margin: 50px;
+}
+p{
+    color:blueviolet;
+    margin-left: 50vw;
+    font-family: 'Roboto Mono', monospace; 
+}
+#txt{
+    margin: 0;
+}
+#txt>button {
+    background-color:darkgray;
+    margin-left: 50vw;
+    border-radius: 5px;
+}
+#txt2>button {
+    background-color: darkgrey;
+    margin-left: 50vw;
+    border-radius: 5px;
+}
+#txt3>button {
+    background-color: darkgray;
+    margin-left: 50vw;
+    border-radius: 5px;
+}
