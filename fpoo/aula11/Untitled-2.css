@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    margin: 0;
+    padding: 0;     
+}
+#preto{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 88%;
+    opacity: 0.4;
+}
+#imagens{
+    
+    position:fixed;
+}
+header{
+    position:relative ;
+     width: 100%;
+     height: 10vh;
+     background-color: black;
+     display: flex;
+     justify-content: space-around;
+     align-items:center;
+}
+#log{
+    display: flex;
+    flex-direction: row;
+
+}   
+#gm{
+    font-family: 'Rubik', sans-serif;
+    color:#BFB434;  
+}
+#st{
+    font-family: 'Rubik', sans-serif;
+    color: aliceblue;
+}
+#lupa{
+    padding: 10px;
+    width: 30px;
+    border-radius: 7px;
+    background-color: #BFB434;
+    cursor: pointer;
+
+}
+#pesq{
+    border-radius: 7px;
+    width: 17vw;
+    border: none;
+    font-size: 15px;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    outline: none;
+}
+#lg{
+    width: 30px;
+    cursor: pointer;
+}
+#conta p{
+    color: aliceblue;
+    cursor: pointer;
+}
+#conta{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+#nav{
+    width: 100%;
+    height: 8%;
+    background-color: white;
+    position: fixed;
+}
+#opt{
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+    font-family:'open sans';
+}
+#opt li {
+    cursor: pointer;
+    padding: 12px;
+}
+#cap{
+    top: 18%;
+    width: 100%;
+    height:70% ;
+    position: absolute;
+}
+#cap2{
+    margin-left: 15vw;
+}
