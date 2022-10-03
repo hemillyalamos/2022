@@ -17,7 +17,7 @@ body{
     background-color: white;
     top: 46%;
     left: 40%;
-    display: none;
+    display: ;
 }
 #pesq{
     position:absolute;
@@ -40,7 +40,7 @@ h1{
 }
 #quadrado a{
     font-family: Arial, Helvetica, sans-serif;
-    display: none;
+    display: flex   ;
     flex-direction: column;
     margin-top: 5px;
     text-decoration: none;
@@ -54,8 +54,4 @@ h1{
 #quadrado a:hover{
     background-color: blueviolet;
     
-}
-
-#pesq.active {
-    display: block;
 }
