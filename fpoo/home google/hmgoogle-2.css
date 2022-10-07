@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  background-color: black;
+}
+#gg{
+    position: absolute;
+    left: 40%;
+    top: 25%
+}
+div{
+    position: absolute;
+    top: 39%;
+    left: 33%;
+}
+#pesq{
+    font-size: medium;
+    padding-left: 50px;
+    position: absolute;
+    border-radius: 25px ;
+    width: 30vw;
+    height: 5vh; 
+    border: none;
+    outline: none;
+    background-color:white;
+}
+#lupa{
+    left: 15px;
+    top: 13px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+#mic{ position: relative;
+    width: 15px;
+    height: 20px; 
+    left: 55vh;
+    top: 13px; 
+}
+header{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    
+}
+#pontos{
+    filter: invert(100%);
+    width: 25px;
+    height: 20px;
+}
+#senai1{ 
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 47vh;
+    left: 38vw;
+    border-radius: 10px;   
+}
+#senai1 img {
+    border-radius: 60px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    padding: 60px;  
+}
+#senai1:hover{
+    cursor: pointer;
+    background-color: gray;
+}

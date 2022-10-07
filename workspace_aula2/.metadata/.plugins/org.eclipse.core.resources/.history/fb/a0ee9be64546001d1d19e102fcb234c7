@@ -1,0 +1,55 @@
+package Venda02;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Venda vs[] = new Venda[10];
+		
+		 vs[0] = new Venda();
+		 vs[0].produto = "Camiseta";
+		 vs[0].preco = 19.9f;
+		 vs[0].quantidade = 1;
+		 
+		 vs[1] = new Venda();
+		 vs[1].produto = "Bermuda";
+		 vs[1].preco = 39.9f;
+		 vs[1].quantidade = 2;
+		 
+		 vs[2] = new Venda();
+		 vs[2].produto = "Boné";
+		 vs[2].preco = 19.9f;
+		 vs[2].quantidade = 1;
+		 
+		 vs[3] = new Venda();
+		 vs[3].produto = "Regata";
+		 vs[3].preco = 19.5f;
+		 vs[3].quantidade = 2;
+		 
+		 vs[4] = new Venda();
+		 vs[4].produto = "Moletom";
+		 vs[4].preco = 59.9f;
+		 vs[4].quantidade = 3;
+		 
+		 vs[5] = new Venda();
+		 vs[5].produto = "Jaqueta";
+		 vs[5].preco = 79.9f;
+		 vs[5].quantidade = 2;
+		 
+		 vs[6] = new Venda();
+		 vs[6].produto = "Tenis";
+		 vs[6].preco = 200.5f;
+		 vs[6].quantidade = 1;
+		 
+		 vs[7] = new Venda();
+		 vs[7].produto = "Meia";
+		 vs[7].preco = 19.5f;
+		 vs[7].quantidade = 2;
+		 
+		 
+		 for(int i = 0; i < 2; i++) {
+			 System.out.printf("%s\t%.2f\t%d\t%.2f\n", vs[i].produto, vs[i].preco, vs[i].quantidade, vs[i].subtotal());
+		 }
+	}
+
+}

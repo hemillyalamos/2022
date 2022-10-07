@@ -34,17 +34,16 @@ inputBox.onkeyup = (e)=>{
         searchWrapper.classList.remove("active"); //hide autocomplete box
     }
 }
-function select(Instagram){
-    let selectData = Instagram.textContent;
+function select(element){
+    let selectData = element.textContent;
     inputBox.value = selectData;
     icon.onclick = ()=>{
-        webLink = `https://github.com/hemillyalamos${selectData}`;
+        webLink = `https://www.google.com/search?q=${selectData}`;
         linkTag.setAttribute("href", webLink);
         linkTag.click();
     }
     searchWrapper.classList.remove("active");
 }
-
 function showSuggestions(list){
     let listData;
     if(!list.length){

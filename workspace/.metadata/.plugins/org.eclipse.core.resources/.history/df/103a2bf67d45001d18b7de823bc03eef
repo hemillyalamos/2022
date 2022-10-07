@@ -1,0 +1,14 @@
+package padrao;
+
+public class Gato {
+	//Atributos
+	String nome;
+	String rca;
+	float peso;
+	
+	public static void main(String[] args) {
+		System.out.println("Miau");
+
+	}
+
+}
