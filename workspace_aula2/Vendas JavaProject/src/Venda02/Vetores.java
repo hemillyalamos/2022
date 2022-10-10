@@ -10,7 +10,7 @@ public class Vetores {
 		int numeros[];//Instanciar um vetor
 		numeros = new int[10];//iniciar um vetor
 		int valores[] = new int[10];//iniciar e instanciar um vetor
-		int vetor[] = (10, 13, 18, 45);//iniciando e instanciando um vetor com valores
+		int vetor[] = {10, 13, 18, 45};//iniciando e instanciando um vetor com valores
 	}
 
 }
