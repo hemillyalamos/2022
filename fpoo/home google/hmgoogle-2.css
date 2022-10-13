@@ -4,13 +4,13 @@ body{
 }
 #gg{
     position: absolute;
-    left: 40%;
-    top: 25%
+    left: 42%;
+    top: 20%
 }
 div{
     position: absolute;
-    top: 39%;
-    left: 33%;
+    top: 33%;
+    left: 35%;
 }
 #pesq{
     font-size: medium;
@@ -54,10 +54,66 @@ a{
 }
 #pontos{
     filter: invert(100%);
-    width: 25px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
-#senai1{ 
+
+#senai1 {
+    border-radius: 50px;
+    width: 45px;
+    height: 42px;
+    padding: 20px; 
+    top: 8vh;
+    left: 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+#senai1:hover{
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 10px;
+}
+#github{
+    border-radius: 30px;
+    filter: invert(100%);
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; 
+    top: 8vh;
+    left: 7vw;
+}
+#github:hover{
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 10px;
+}
+#adds{
+    border-radius: 30px;
+    filter: invert(100%);
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; 
+    top: 8vh;
+    left: 17vw;
+}
+#adds:hover{
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+
+/* #senai1{ 
     width: 80px;
     height: 80px;
     display: flex;
@@ -79,3 +135,25 @@ a{
     cursor: pointer;
     background-color: gray;
 }
+#github {
+    filter: invert(100%);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    border-radius: 10px;   
+}
+#github img{
+    border-radius: 60px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    padding: 60px;
+    
+}
+#github:hover{
+    cursor: pointer;
+    background-color: gray;
+} */
