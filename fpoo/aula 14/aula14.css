@@ -8,8 +8,8 @@
     height: 50vh;
     background-color: beige;
     display: grid;
-    grid-template-columns: 2fr  );
-    grid-auto-rows: ;
+    grid-template-columns: 2fr 1fr;
+    
 }
 .container > div{
     background-color: blue;

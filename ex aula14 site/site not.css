@@ -1,0 +1,23 @@
+*{
+    margin: 15%;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+.area{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr ;
+    grid-template-areas: "header header" "main"
+}
+.header{
+    grid-area: header;
+    background-color: black;
+}
+#log{
+    margin: ;
+}
+.main{
+    grid-area: main;
+}
