@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Oswald&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+}
+header{
+    
+    display: flex;
+    background-color: rgba(4, 85, 138, 1);
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+}
+.home{
+    display: flex;
+    gap: 2rem;
+}
+h1{
+    margin: 25px;
+    margin-left: 10px;
+    color:  #FFFFFF;
+}
+h1:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+body{
+    position: relative;
+    background-color: #0182B0;
+    width: 100vw;
+    height: 100vh;
+    
+}
+#Cadastrar{
+   margin-left: 25px;
+   margin-top: 15px;
+   border-bottom: 3px solid #F8C304;
+   border-radius: 10px;
+   height: 5vh;
+   width: 5vw;
+   border-color: #F8C304;
+   background: none;
+   color: #F8C304;
+   font-family: 'Oswald', sans-serif;
+   font-size: 15px;
+   
+}

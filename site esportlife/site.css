@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: absolute;
+    width: 100vw;
+    height: 12vh;
+    left: 0px;
+    top: -20px;
+    background: #51D523;
+}
+#esp{
+    position: absolute;
+    width: 464px;
+    height: 38px;
+    left: 39vw;
+    top: 12px;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    opacity: 0.4;
+}
+#bol{
+    position: absolute;
+    width: 54px;
+    height: 51px;
+    left: 45vw;
+    top: 5vh;  
+}
+#life{
+    position: absolute;
+    width: 464px;
+    height: 38px;
+    left: 48vw;
+    top: 12px;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    opacity: 0.4;
+}
+.br{
+    position:absolute;
+    width: 100vw;
+    height: 2vh;
+    top: 9vh;
+    background-color: black;
+}
+.br2{
+    position: absolute;
+    width: 100vw;
+    height: 6vh;
+    top: 11vh;
+    background: #CBF1AD;
+}
+#icon1{
+    position: absolute;
+    left: 20vw;
+}
+#icon2{
+    position: absolute; 
+    left: 30vw;
+}  
+#icon3{
+    position: absolute;
+    left: 40vw;
+}
+#icon4{
+    position: absolute;
+    left: 50vw;
+}
+#icon5{
+    position: absolute;
+    left: 80vw;
+}
+h4{
+    font-family: 'Dosis', sans-serif;
+    position: absolute;
+    top: 0vw;
+    left: 4vh;
+}
+h4:hover{
+    cursor: pointer;
+    opacity: 0.6;   
+}
+#pesq{
+    position: absolute;
+    height:3vh ;
+    width:13vw;
+    left: 60vw ;
+    top: 2vh ;
+    border-radius: 20px;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    padding-left: 48px;
+}
+#icon6{
+    position: absolute;
+    left:66vw;
+    top: 2px;
+    opacity: 0.4;
+} 

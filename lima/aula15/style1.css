@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+#inicial{
+    background-color:  #6C117B;;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
