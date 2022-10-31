@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .header{
     position: absolute;
     width: 100vw;
@@ -25,10 +26,13 @@ body{
     font-weight: 400;
     font-size: 60px;
     line-height: 26px;
+
     display: flex;
     align-items: center;
     text-align: center;
+
     color: #000000;
+
     opacity: 0.4;
 }
 #bol{
@@ -36,7 +40,8 @@ body{
     width: 54px;
     height: 51px;
     left: 45vw;
-    top: 5vh;  
+    top: 5vh;
+     
 }
 #life{
     position: absolute;
@@ -72,21 +77,41 @@ body{
     position: absolute;
     left: 20vw;
 }
+#icon1:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
 #icon2{
     position: absolute; 
     left: 30vw;
 }  
+#icon2:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
 #icon3{
     position: absolute;
     left: 40vw;
+}
+#icon3:hover{
+    cursor: pointer;
+    opacity: 0.6;
 }
 #icon4{
     position: absolute;
     left: 50vw;
 }
+#icon4:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
 #icon5{
     position: absolute;
     left: 80vw;
+}
+#icon5:hover{
+    cursor: pointer;
+    opacity: 0.6;
 }
 h4{
     font-family: 'Dosis', sans-serif;
@@ -94,15 +119,11 @@ h4{
     top: 0vw;
     left: 4vh;
 }
-h4:hover{
-    cursor: pointer;
-    opacity: 0.6;   
-}
 #pesq{
     position: absolute;
     height:3vh ;
     width:13vw;
-    left: 60vw ;
+    left: 65vw ;
     top: 2vh ;
     border-radius: 20px;
     background-color: aliceblue;
@@ -115,4 +136,146 @@ h4:hover{
     left:66vw;
     top: 2px;
     opacity: 0.4;
+}
+#img1{
+    position: absolute;
+    width: 30vw;
+    height: 35vh;
+    left: 45vh;
+    top: 10vw
 } 
+#text{
+    position: absolute;
+    width: 433px;
+    height: 82px;
+    left: 25vw;
+    top: 54vh;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#text2{
+    position: absolute;
+    width: 362px;
+    height: 105px;
+    left: 27vw;
+    top: 60vh;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+ button{
+    display: flex;
+    padding: 7px 35px;
+    position: absolute;
+    width: 202px;
+    height: 48px;
+    left: 64vh;
+    top: 35vw;
+    background: #0F0F0F;
+    color: aliceblue;
+    cursor: pointer;
+}
+  button:hover{
+    background-color:lightslategrey ;
+ }
+ #img2{
+    position: absolute;
+    width: 30vw;
+    height: 35vh;
+    left: 45vh;
+    top: 40vw
+} 
+#text1{
+    position: absolute;
+    width: 433px;
+    height: 82px;
+    left: 25vw;
+    top: 117vh;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#text3{
+    position: absolute;
+    width: 362px;
+    height: 105px;
+    left: 27vw;
+    top: 125vh;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#not2 button  {
+    display: flex;
+    padding: 7px 35px;
+    position: absolute;
+    width: 202px;
+    height: 48px;
+    left: 64vh;
+    background: #0F0F0F;
+    color: aliceblue;
+    margin-top: 65vh;
+}
+#not2 button:hover{
+    background-color:lightslategrey ;
+ }
+#img3{
+    position: absolute;
+    width: 30vw;
+    height: 35vh;
+    left: 45vh;
+    top: 72vw
+}
+#text5{
+    position: absolute;
+    width: 433px;
+    height: 82px;
+    left: 25vw;
+    top: 180vh;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#text4{
+    position: absolute;
+    width: 362px;
+    height: 105px;
+    left: 27vw;
+    top: 188vh;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center
+}
+#not3 button{
+    display: flex;
+    padding: 7px 35px;
+    position: absolute;
+    width: 202px;
+    height: 48px;
+    left: 64vh;
+    background: #0F0F0F;
+    color: aliceblue;
+    margin-top: 129vh;
+}
+#not3 button:hover{
+    background-color:lightslategrey ;
+ }
