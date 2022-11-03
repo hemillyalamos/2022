@@ -5,7 +5,7 @@ public class Venda {
 	private int quantidade;
 	private float preco;
 	
-	float subTotal() {
+	1 float subTotal() {
 		return quantidade*preco;
 	}
 

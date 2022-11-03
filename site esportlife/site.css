@@ -137,13 +137,13 @@ h4{
     top: 2px;
     opacity: 0.4;
 }
-#img1{
+/* #img1{
     position: absolute;
     width: 30vw;
     height: 35vh;
     left: 45vh;
     top: 10vw
-} 
+}  */
 #text{
     position: absolute;
     width: 433px;
@@ -278,4 +278,88 @@ h4{
 }
 #not3 button:hover{
     background-color:lightslategrey ;
+ }
+#retangulo1{
+    position: absolute;
+    width: 25vw;
+    height: 20vh;
+    left: 65vw;
+    top: 25vh;
+    background: #E4F0DB;
+}
+#retangulo2{
+    position: absolute;
+    width: 25vw;
+    height: 20vh;
+    left: 65vw;
+    top: 50vh;
+    background: #E4F0DB;
+}
+#retangulo3{
+    position: absolute;
+    width: 25vw;
+    height: 20vh;
+    left: 65vw;
+    top: 75vh;
+    background: #E4F0DB;
+}
+#retangulo4{
+    position: absolute;
+    width: 25vw;
+    height: 20vh;
+    left: 65vw;
+    top: 100vh;
+    background: #E4F0DB;
+}
+#retangulo5{
+    position: absolute;
+    width: 25vw;
+    height: 20vh;
+    left: 65vw;
+    top: 125vh;
+    background: #E4F0DB;
+}
+#retangulo6{
+    position: absolute;
+    width: 25vw;
+    height: 20vh;
+    left: 65vw;
+    top: 150vh;
+    background: #E4F0DB;
+}
+#retangulo7{
+      position: absolute;
+      width: 25vw;
+      height: 20vh;
+      left: 65vw;
+      top: 175vh;
+      background: #E4F0DB;
+}
+ #retangulo8{
+      position: absolute;
+      width: 25vw;
+      height: 20vh;
+      left: 65vw;
+      top: 200vh;
+      background: #E4F0DB;
+}
+.img-container{
+    width: 30vw;
+    height: 35vh;
+    overflow: hidden;
+    border: 2px solid #000;
+    left: 415vh;
+    top: 60vw
+ }
+ 
+ .img-container img{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+ }
+ 
+ .img-container:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
  }

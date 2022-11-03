@@ -20,19 +20,26 @@ public class Main {
 			
 			switch(menu) {
 			case 1:
-				System.out.println("Produto\tQuantidade\tPreco");
-				create();	
+				System.out.println("Produto\tQuantidade\tPreço:");
+				create();
 				break;
 			case 2:
+				System.out.println("Produto\tQuantidade\tPreço\tSubTotal:");
+				read();
 				break;
 			case 3:
+				System.out.print("Digite qual item quer alterar:");
+				update(scan.nextInt());
 				break;
 			case 4:
+				System.out.print("Digite qual item quer excluir:");
+				delete(scan.nextInt());
 				break;
 			case 5:
+				System.out.println("Obrigado por utilizar nosso sistema. Tchaw.");
 				break;
 			default:
-				System.out.println("Opcao invalida");
+				System.out.println("Opção inválida.");
 				break;
 			}
 		}
@@ -45,11 +52,35 @@ public class Main {
 		v.setQuantidade(scan.nextInt());
 		v.setPreco(scan.nextFloat());
 		vendas.add(v);
-}
-	public static void read() {
-		for(Venda v: vendas) {
-			System.out.printf(v.toString());
-		}
-		
 	}
+	
+	public static void read() {
+		float total = 0;
+		for(Venda v: vendas) {
+			System.out.println(v.toString());
+			total += v.subTotal();
+		}
+		System.out.printf("Total = %.2f\n",total);
+	}
+	
+	public static void update(int indice) {
+		if(indice >= 0 && indice < vendas.size()) {
+			System.out.println(vendas.get(indice).toString());
+			Venda v = new Venda();
+			v.setProduto(scan.next());
+			v.setQuantidade(scan.nextInt());
+			v.setPreco(scan.nextFloat());
+			vendas.set(indice,v);
+			System.out.println("Venda alterada.");
+		}else
+			System.out.println("Ítem inválido.");
+	}
+
+	public static void delete(int indice) {
+		if(indice >= 0 && indice < vendas.size()) {
+			vendas.remove(indice);
+			System.out.println("Venda excluída.");
+		}else
+			System.out.println("Ítem inválido.");
+	}                    
 }

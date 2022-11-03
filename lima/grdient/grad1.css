@@ -1,0 +1,12 @@
+#grad1 {
+    height: 200px;
+    width: 200px;
+    border-radius:100px;
+    background-image: conic-gradient( rgb(255, 192, 239),rgb(129, 9, 129), rgb(40, 40, 228), black);
+} 
+ div {
+    transition: transform 10s;
+} 
+ div:hover {
+    transform: rotate(1080deg);
+}
